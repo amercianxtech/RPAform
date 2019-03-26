@@ -123,14 +123,20 @@
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label>Multiple Select from Dropdown</label>
-                                            <select multiple class="form-control">
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>
+                                            <label>Multiple Select from Dropdown<br></label>
+                                            
+                                                
+                                                <p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.<br></p>
+
+                                                <form action="/action_page.php">
+                                                    <select name="cars" multiple>
+                                                      <option value="volvo">Volvo</option>
+                                                      <option value="saab">Saab</option>
+                                                      <option value="opel">Opel</option>
+                                                      <option value="audi">Audi</option>
+                                                    </select>
+                                                    <input type="submit">
+                                                    </form>
                                         </div>
                                         <button type="submit" class="btn btn-default">Submit Button</button>
                                         <button type="reset" class="btn btn-default">Reset Button</button>
